@@ -1,6 +1,6 @@
 \name{report}
 \alias{report}
-\title{ report printing }
+\title{    Report Printing    }
 \description{
   Function to present text on screen.
 }
@@ -15,15 +15,12 @@ report(msg=NULL, style=0, char="-")
   }
   \item{char}{ A character to use for the style. }
 }
-
 %\details{}
 \value{ A matrix containing the printed lines in one row. }
 \author{ Joerg Helms }
 \note{ report will always print a blank line first. }
-
-
-%\seealso{ ~~objects to SEE ALSO as \code{\link{~~fun~~}}, ~~~ }
-
-\examples{ report("It's a nice day!", style="b", char="*") }
-
-\keyword { print }
+\examples{ 
+    report("It's a nice day!", style="b", char="*") 
+}
+\keyword{ print }
+\keyword{ utilities }

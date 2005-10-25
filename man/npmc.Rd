@@ -1,5 +1,4 @@
 \name{npmc}
-
 \alias{npmc}
 \alias{print.npmc}
 \alias{summary.npmc}
@@ -148,11 +147,11 @@ npmc(dataset, control=NULL, df=2, alpha=0.05)
   whether or not the matrix was forced to be positive semidefinite.
 }
 
-%\seealso{ ~~objects to SEE ALSO as \code{\link{~~fun~~}}, ~~~ }
+%%\seealso{ ~~objects to SEE ALSO as \code{\link{~~fun~~}}, ~~~ }
 
 \examples{
 data(brain)
 summary(npmc(brain), type="BF")
 }
 \keyword{ nonparametric }
-%\keyword{ multiple comparisons }
+\concept{ multiple comparisons }

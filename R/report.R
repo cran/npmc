@@ -6,7 +6,7 @@ function(msg=NULL, style=0, char="-")
   if (is.vector(msg))
     msg <- unlist(msg)
   else
-    error("msg must be of type vector");
+    stop("msg must be of type vector");
   
   char <- substr(char, 1, 1);
 

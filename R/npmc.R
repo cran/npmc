@@ -21,7 +21,7 @@ function(dataset, control=NULL, df=2, alpha=0.05)
   }
 
   if (alpha<=0 || alpha>=1)
-    error("alpha must be a value between 0 and 1");
+    stop("alpha must be a value between 0 and 1");
 
   
   name <- attr(dataset, "name");
