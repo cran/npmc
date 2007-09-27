@@ -177,7 +177,7 @@ function(dataset, control=NULL, df=2, alpha=0.05)
     vj <- rep(cg, a-1);
   }
 
-  ## number of comparisons ( a*(a-1)/2 for all-pairs, (a-1) for mny-to-one )
+  ## number of comparisons ( a*(a-1)/2 for all-pairs, (a-1) for many-to-one )
   nc <- length(vi);              
   
   ## labels describing the compared groups 

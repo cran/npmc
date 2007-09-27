@@ -20,7 +20,7 @@ report(msg=NULL, style=0, char="-")
 \author{ Joerg Helms }
 \note{ report will always print a blank line first. }
 \examples{ 
-    report("It's a nice day!", style="b", char="*") 
+    report("It's a nice day!", style="border", char="*") 
 }
 \keyword{ print }
 \keyword{ utilities }

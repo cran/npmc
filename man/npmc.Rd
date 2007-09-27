@@ -91,7 +91,8 @@ npmc(dataset, control=NULL, df=2, alpha=0.05)
    }
    \item{test}{
      BF / Steel: Two lists containing the test-results and some other
-     characteristics of the multiple nonparametric Behrens-Fisher- and Steel-type testprocedures
+     characteristics of the multiple nonparametric Behrens-Fisher- and 
+     Steel-type testprocedures
      
        cmp: names the compared groups ('a-b')
 
