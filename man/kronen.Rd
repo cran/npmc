@@ -1,6 +1,5 @@
 \name{kronen}
 \alias{kronen}
-\non_function{}
 \title{ Baumkronen }
 \usage{data(kronen)}
 \description{

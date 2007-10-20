@@ -1,6 +1,5 @@
 \name{brain}
 \alias{brain}
-\non_function{}
 \title{ reaction time of brain-damaged patients }
 \usage{data(brain)}
 \description{
