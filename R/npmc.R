@@ -94,7 +94,7 @@ function(dataset, control=NULL, df=2, alpha=0.05)
     n <- ncol(corr);
     sapply(stat, function(arg) 
          {
-           mvt(
+          mvtnorm::: mvt(
                lower=rep(-Inf, n), 
                upper=rep(arg, n), 
                df=df, 
